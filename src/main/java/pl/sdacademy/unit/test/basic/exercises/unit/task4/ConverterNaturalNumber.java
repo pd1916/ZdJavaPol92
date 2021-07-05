@@ -4,6 +4,7 @@ public class ConverterNaturalNumber {
 
     private static final int FIRST_NATURAL_NUMBER = 0;
 
+    // liczby naturalne
     public String toStringFromNaturalNumber(int number) {
         if (number < FIRST_NATURAL_NUMBER) {
             throw new IllegalArgumentException("Given number is less that 0!");
